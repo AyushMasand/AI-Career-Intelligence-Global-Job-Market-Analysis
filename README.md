@@ -15,6 +15,18 @@ The goal is to derive actionable insights that help answer:
 * Does higher salary lead to better job satisfaction?
 
 ---
+## ⚙️ Data Pipeline
+
+This project includes an automated data pipeline:
+
+1. Loads raw dataset
+2. Cleans and preprocesses data using Python scripts
+3. Saves cleaned data for analysis
+
+Run the pipeline:
+
+```bash
+python run_pipeline.py
 
 ## 🛠️ Tools & Technologies
 
@@ -64,8 +76,11 @@ The goal is to derive actionable insights that help answer:
 
 ## 📁 Project Structure
 
-* `notebooks/` → Jupyter notebooks for analysis
-* `data/` → Raw dataset
+- `data/raw/` → Raw dataset
+- `data/processed/` → Cleaned dataset
+- `scripts/` → Data cleaning scripts
+- `notebook/` → Jupyter notebook for analysis
+- `run_pipeline.py` → Automated pipeline script
 
 ---
 
