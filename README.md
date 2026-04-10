@@ -1,13 +1,10 @@
-# AI-Career-Intelligence-Global-Job-Market-Analysis
-Data-driven analysis of global AI jobs covering salary, career growth, job stability, and work culture.
-
-# AI Career Intelligence : Global Job Market Analysis
+# 🚀 AI Career Intelligence: Global Job Market Analysis
 
 ## 📌 Overview
 
-This project analyzes a global dataset of AI jobs (90,000+ records) to understand salary trends, career growth, job stability, and work culture across different countries, industries, and roles.
+This project analyzes a global dataset of **90,000+ AI jobs** to uncover insights into salary trends, career growth, job stability, and work culture across countries, industries, and roles.
 
-The goal is to derive actionable insights that help answer:
+The goal is to answer key questions:
 
 * What drives AI salaries?
 * How do AI careers grow over time?
@@ -15,23 +12,30 @@ The goal is to derive actionable insights that help answer:
 * Does higher salary lead to better job satisfaction?
 
 ---
+
 ## ⚙️ Data Pipeline
 
-This project includes an automated data pipeline:
+This project includes an automated data pipeline for consistent and reproducible analysis.
 
-1. Loads raw dataset
-2. Cleans and preprocesses data using Python scripts
-3. Saves cleaned data for analysis
+### 🔄 Pipeline Flow
 
-Run the pipeline:
+1. Load raw dataset from `data/raw/`
+2. Clean and preprocess data using Python scripts
+3. Save cleaned dataset to `data/processed/`
+4. Use processed data for analysis and visualization
+
+### ▶️ Run the pipeline
 
 ```bash
 python run_pipeline.py
+```
+
+---
 
 ## 🛠️ Tools & Technologies
 
-* Python (Pandas, NumPy)
-* Data Analysis & Feature Engineering
+* **Python** (Pandas, NumPy)
+* Data Cleaning & Feature Engineering
 
 ---
 
@@ -67,26 +71,39 @@ python run_pipeline.py
 
 ## 🔍 Key Insights
 
-* AI salaries grow **2–3× from entry to senior levels**, making experience the strongest driver of compensation.
-* Significant variation exists across countries, but **real salary provides a more accurate comparison** of earning potential.
-* Salary shows **weak correlation with employee satisfaction**, highlighting the importance of work-life balance.
-* Some roles and industries offer **higher growth but increased risk**, indicating a trade-off between stability and compensation.
+* AI salaries grow **2–3× from entry to senior levels**, making experience the strongest driver of compensation
+* Significant variation exists across countries, but **real salary provides a more accurate comparison**
+* Salary shows **weak correlation with employee satisfaction**, highlighting the importance of work-life balance
+* Some roles offer **higher growth but increased risk**, showing a trade-off between stability and compensation
 
 ---
 
 ## 📁 Project Structure
 
-- `data/raw/` → Raw dataset
-- `data/processed/` → Cleaned dataset
-- `scripts/` → Data cleaning scripts
-- `notebook/` → Jupyter notebook for analysis
-- `run_pipeline.py` → Automated pipeline script
+```
+AI_Job_Intelligence/
+│
+├── data/
+│   ├── raw/              # Original dataset
+│   └── processed/        # Cleaned dataset (pipeline output)
+│
+├── notebooks/            # Jupyter notebooks (analysis)
+├── scripts/              # Data cleaning scripts
+├── run_pipeline.py       # Pipeline runner
+└── README.md
+```
 
 ---
 
 
 ---
 
-## 🚀 Author
 
-Ayush
+
+---
+
+## 👤 Author
+
+**Ayush**
+
+---
