@@ -93,15 +93,6 @@ AI_Job_Intelligence/
 └── README.md
 ```
 
----
-
-
----
-
-
-
----
-
 ## 👤 Author
 
 **Ayush**
