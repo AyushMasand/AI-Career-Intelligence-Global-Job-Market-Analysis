@@ -66,14 +66,9 @@ The goal is to derive actionable insights that help answer:
 
 * `notebooks/` → Jupyter notebooks for analysis
 * `data/` → Raw dataset
-* `outputs/` → Processed datasets for Tableau dashboards
 
 ---
 
-## 📊 Future Work
-
-* Build interactive Tableau dashboards
-* Develop machine learning models for salary prediction
 
 ---
 
